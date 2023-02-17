@@ -31,9 +31,9 @@ jobs:
             - ./venv
         key: v1-dependencies-{{ checksum "requirements.txt" }}
 
-    # run lint!
-    - run:
+      # run lint!
+      - run:
       name: run lint
-      command: |
-          . venv/bin/activate
-          make lint 
+        command: |
+            . venv/bin/activate
+            make lint 
