@@ -43,3 +43,10 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+* Start a local cluster: minikube start
+* Run this command to deploy the application in kubernetes: ./run_kubernetes.sh
+* Check the pod status if it is up and running: kubectl get pod
+* When the pod status is runing, run this command again: ./run_kubernetes.sh
+* Make predictions using: ./make_prediction.sh
+
+Delete the cluster after your done: minikube delete
