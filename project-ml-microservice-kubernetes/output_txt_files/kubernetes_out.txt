@@ -1,1 +1,17 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Error from server (AlreadyExists): pods "ml-microservice-kubernetes" already exists
+NAME                         READY   STATUS    RESTARTS   AGE
+ml-microservice-kubernetes   1/1     Running   1          20m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [git ::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+-------------------------------------------------------------------------
+
+pod/ml-microservice-project created
+NAME                         READY   STATUS    RESTARTS   AGE
+ml-microservice-kubernetes   1/1     Running   1          22m
+ml-microservice-project      0/1     Pending   0          0s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
