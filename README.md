@@ -2,6 +2,7 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/abderrahimsoumer/DevOps_Microservices/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/abderrahimsoumer/DevOps_Microservices/tree/master)
 
 ## Project Overview
+This project is a part of the Udacity Cloud Devops ND.
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
 
